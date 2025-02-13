@@ -4,6 +4,7 @@ export default function Header() {
     return (
         //contenuto header
         <header>
+
             {/* logo */}
             <img src="/img/favicon.ico" alt="Logo" />
             {/* barra di navigazione*/}
@@ -21,6 +22,7 @@ export default function Header() {
                     <li>SHOP</li>
                 </ul>
             </nav>
+
         </header>
     );
 }
