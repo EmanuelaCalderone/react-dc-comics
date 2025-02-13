@@ -1,8 +1,12 @@
+//esporto la funzione header
 export default function Header() {
     console.log("header renderizzato");
     return (
+        //contenuto header
         <header>
+            {/* logo */}
             <img src="/img/favicon.ico" alt="Logo" />
+            {/* barra di navigazione*/}
             <nav>
                 <ul>
                     <li>CHARACTERS</li>

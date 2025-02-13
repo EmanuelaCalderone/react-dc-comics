@@ -1,7 +1,9 @@
+//esporto la funzione footer
 export default function Footer() {
     return (
-
+        //contenuto footer
         <footer>
+            {/* footer principale */}
             <div id="footer-1">
                 <ul>
                     <li>DC COMICS</li>
@@ -44,6 +46,7 @@ export default function Footer() {
                 </ul>
             </div>
 
+            {/* footer secondario */}
             <div container id="footer-2">
                 <button>SIGN-UP NOW!</button>
                 <button>FOLLOW US</button>
