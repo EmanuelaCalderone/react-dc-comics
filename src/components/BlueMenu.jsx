@@ -5,23 +5,23 @@ export default function BlueMenu() {
         <div id="blue_menu">
             <figure>
                 <img src="/img/buy-comics-digital-comics.png" alt="Digital Comics Logo" />
-                <figcaption>Digital Comics</figcaption>
+                <figcaption>DIGITAL COMICS</figcaption>
             </figure>
             <figure>
                 <img src="/img/buy-comics-merchandise.png" alt="DC Merchandise Logo" />
-                <figcaption>DC Merchandise</figcaption>
+                <figcaption>DC MERCHANDISE</figcaption>
             </figure>
             <figure>
                 <img src="/img/buy-comics-subscriptions.png" alt="Subscription Logo" />
-                <figcaption>Subscriptions</figcaption>
+                <figcaption>SUBSCRIPTION</figcaption>
             </figure>
             <figure>
                 <img src="/img/buy-comics-shop-locator.png" alt="Locator Logo" />
-                <figcaption>Shop Locator</figcaption>
+                <figcaption>COMIC SHOP LOCATOR</figcaption>
             </figure>
             <figure>
-                <img src="/img/buy-dc-power-visa.png" alt="DC Power Visa Logo" />
-                <figcaption>DC Power Visa</figcaption>
+                <img src="/img/buy-dc-power-visa.svg" alt="DC Power Visa Logo" />
+                <figcaption>DC POWER VISA</figcaption>
             </figure>
         </div>
 
