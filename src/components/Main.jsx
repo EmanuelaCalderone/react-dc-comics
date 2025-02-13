@@ -1,3 +1,6 @@
+//importo contenuto fascia blu
+import BlueMenu from "./BlueMenu";
+
 //esporto la funzione main
 export default function Main() {
     return (
@@ -5,7 +8,7 @@ export default function Main() {
         <main>
 
             <p>--&gt; Content goes here &gt;--</p>
-
+            <BlueMenu />
         </main>
     );
-}
+} 
