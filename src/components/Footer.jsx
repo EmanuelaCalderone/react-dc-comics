@@ -55,7 +55,7 @@ export default function Footer() {
                 <img src="/img/footer-twitter.png" alt="Twitter Logo" />
                 <img src="/img/footer-youtube.png" alt="YouTube Logo" />
                 <img src="/img/footer-pinterest.png" alt="Pinterest Logo" />
-                <img src="/img/buy-comics-shop-locator.png" alt="Map Logo" />
+                <img src="/img/footer-periscope.png" alt="Map Logo" />
 
             </div>
         </footer>
