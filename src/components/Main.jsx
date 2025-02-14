@@ -9,7 +9,9 @@ export default function Main() {
     return (
         //contenuto main
         <main>
+            {/* aggiungo componente CardsList */}
             <CardsList />
+            {/* aggiungo componente BlueMenu */}
             <BlueMenu />
         </main >
     );

@@ -2,7 +2,7 @@
 import Card from "./Card.jsx";
 
 function CardsList() {
-    //array delle cards
+    //array delle card
     const comics = [
         {
             id: 1,
@@ -159,14 +159,18 @@ function CardsList() {
     ];
 
     function generateCard() {
+        //assegno chiave univoca a ogni card e uso il metodo map per restituire l'array di card solo con immagine e titolo
         return comics.map(comic => <Card key={comic.id} cardSeries={comic.series} cardThumb={comic.thumb} />)
     }
 
     return (
+        //ritorna contenitore principale card
         <section className="card-container">
+            {/* chiamo la funzione per generare e visualizzare le card */}
             {generateCard()}
         </section>
     )
 };
 
+//esporto il componente
 export default CardsList;
