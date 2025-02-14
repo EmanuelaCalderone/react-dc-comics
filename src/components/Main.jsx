@@ -9,7 +9,9 @@ export default function Main() {
     return (
         //contenuto main
         <main>
-            {/* aggiungo componente CardsList */}
+            {/* creo jumbotron con immagine */}
+            <div className="jumbotron"></div>
+            {/* aggiungo componente BlueMenu */}
             <CardsList />
             {/* aggiungo componente BlueMenu */}
             <BlueMenu />

@@ -170,8 +170,18 @@ main p {
   width: 200px;
 }
 
+/*sezione jumbotron con immagine*/
+.jumbotron {
+  background-image: url("./img/jumbotron.jpg");
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /*sezione card*/
 .card-container {
+  background-color: #1c1c1c;
   display: flex;
   justify-content: center;
   align-items: center;
