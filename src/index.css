@@ -169,3 +169,34 @@ main p {
   cursor: pointer;
   width: 200px;
 }
+
+/*sezione card*/
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.cards-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 70%;
+}
+
+/*singole card*/
+.card-image {
+  width: 50%;
+}
+
+/*singole immagini*/
+.card-image img {
+  width: 100%;
+}
+
+/*titolo card*/
+.card-image h4 {
+  color: white;
+}

@@ -1,14 +1,15 @@
 //importo contenuto fascia blu
 import BlueMenu from "./BlueMenu";
 
+//importo le Card
+import CardsList from "./CardsList";
+
 //esporto la funzione main
 export default function Main() {
     return (
-        //contenuto header
+        //contenuto main
         <main>
-            <div className="main">
-                <p>--&gt; Content goes here &gt;--</p>
-            </div>
+            <CardsList />
             <BlueMenu />
         </main >
     );
